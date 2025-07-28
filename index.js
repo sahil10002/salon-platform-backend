@@ -18,5 +18,6 @@ app.use("/api/auth", authRoutes);
 app.use("/api/services", serviceRoutes);
 
 app.listen(3000, () => {
-  console.log("Server is running on port 5000");
+  console.log("Server is running on port 3000");
 });
+const PORT = process.env.PORT || 5000;
